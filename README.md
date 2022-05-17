@@ -1,2 +1,1 @@
-노마드코더 2019 movie app
-### Code Splitting
+### 노마드코더 2019 movie app
