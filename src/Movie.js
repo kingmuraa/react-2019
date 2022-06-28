@@ -10,14 +10,14 @@ function Moive({id, year, title, summary, poster, genres}){
             <h5 className="movie__year">{year}</h5>
             {/* <h3 class="movie__title" style={{backgroundColor : "red"}}>{title}</h3> */}
             <h3 className="movie__title">{title}</h3>
-            <ul className="genres">
+            <ul className="movie__genres">
                 {genres.map(genre => (
                     <li className="genres__genre">
                         {genre}
                         </li>
                     ))}
             </ul>
-            <p className="movie__summary">{summary}</p>
+            <p className="movie__summary">{summary.slice(0,140)}...</p>
         </div>
     </div>
     );
